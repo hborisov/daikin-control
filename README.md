@@ -36,6 +36,10 @@ mandatory parameters:
 * shum - humidity
   * 0
 
+Example request:
+
+GET http://192.168.1.111/aircon/set_control_info?mode=3&stemp=22.0&f_dir=0&f_rate=A&pow=0&shum=0
+
 ## /aircon/get_sensor_info
 
 response:
